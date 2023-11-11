@@ -1,9 +1,10 @@
+import { Link } from 'react-router-dom';
+/* eslint-disable react/prop-types */
 
-export default function Category(props) {
-
+function Category(props) {
     return (
-        <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay={props.delay + "s"}>
-            <a className="cat-item d-block bg-light text-center rounded p-3" href="">
+        <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay={`${props.delay}s`}>
+            <Link className="cat-item d-block bg-light text-center rounded p-3" to={`/property-list/${props.type}`}>
                 <div className="rounded p-4">
                     <div className="icon mb-3">
                         <img className="img-fluid" src={props.img} alt="Icon"/>
@@ -11,7 +12,9 @@ export default function Category(props) {
                     <h6>{props.type}</h6>
                     <span>{props.number} Properties</span>
                 </div>
-            </a>
+            </Link>
         </div>
     );
-};
+}
+
+export default Category;

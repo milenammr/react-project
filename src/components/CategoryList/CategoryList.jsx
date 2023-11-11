@@ -1,6 +1,22 @@
+import {useEffect, useState} from "react";
+import * as service from "../../services/service";
 import Category from "./Category";
 
 export default function CategoryList() {
+    const [properties, setProperties] = useState([]);
+
+    useEffect(() => {
+        service.getAllProperties()
+            .then(result => setProperties(result))
+            .catch(err => console.error(err))
+    }, []);
+
+    const categoryList = ['Apartment', 'Villa', 'Home', 'Office', 'Building', 'Townhouse', 'Shop', 'Garage'];
+
+    function getNumberOfKind(category) {
+        return properties.filter(property => property.kind === category).length;
+    }
+
     return (
         <div className="container-xxl py-5">
             <div className="container">
@@ -9,17 +25,17 @@ export default function CategoryList() {
                     <p>Eirmod sed ipsum dolor sit rebum labore magna erat. Tempor ut dolore lorem kasd vero ipsum sit eirmod sit. Ipsum diam justo sed rebum vero dolor duo.</p>
                 </div>
                 <div className="row g-4">
-                    <Category img={'img/icon-apartment.png'} type={'Apartment'} number={123} delay={'0.1'}/>
-                    <Category img={'img/icon-villa.png'} type={'Villa'} number={45} delay={'0.3'}/>
-                    <Category img={'img/icon-house.png'} type={'Home'} number={78} delay={'0.5'}/>
-                    <Category img={'img/icon-housing.png'} type={'Office'} number={345} delay={'0.7'}/>
-                    <Category img={'img/icon-building.png'} type={'Building'} number={34} delay={'0.1'}/>
-                    <Category img={'img/icon-neighborhood.png'} type={'Townhouse'} number={233} delay={'0.3'}/>
-                    <Category img={'img/icon-condominium.png'} type={'Shop'} number={112} delay={'0.5'}/>
-                    <Category img={'img/icon-luxury.png'} type={'Garage'} number={68} delay={'0.7'}/>
-
+                    {categoryList.map((category, index) => (
+                    <Category 
+                    key={category} 
+                    img={`img/icon-${category}.png`} 
+                    type={category} 
+                    number={getNumberOfKind(category)} 
+                    delay={(index * 0.2 + 0.1).toFixed(1)}
+                    />))
+                    }
                 </div>
             </div>
         </div>
     );
-};
+}

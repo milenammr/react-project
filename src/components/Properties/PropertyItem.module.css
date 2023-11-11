@@ -1,0 +1,14 @@
+.btn-edit, .btn-delete{
+    background-color: #f0f0f0;
+    color: #8e8e8e;
+}
+
+.btn-delete-hover:hover{
+  background-color: #ffc1c1;
+  color: #b11212;
+}
+
+.btn-edit-hover:hover{
+    background-color: #c4faeb;
+    color: #30B98E;
+}
