@@ -2,7 +2,7 @@
     "property_1": {
         "id": "property_1",
         "delay": "0.1",
-        "img": "img/property-1.jpg",
+        "img": "https://www.mydomaine.com/thmb/bepet4VMGUG70sCLFNQRdZm9bbg=/2048x0/filters:no_upscale():strip_icc()/SuCasaDesign-Modern-9335be77ca0446c7883c5cf8d974e47c.jpg",
         "tag": "For Sell",
         "kind": "Apartment",
         "price": "12,345",
@@ -41,7 +41,7 @@
     "property_2": {
         "id": "property_2",
         "delay": "0.2",
-        "img": "img/property-2.jpg",
+        "img": "https://i2.au.reastatic.net/800x600/be61927655937752eef37e4a4567b3385a49fcc795dc4d9765d7827623f79c52/main.jpg",
         "tag": "For Rent",
         "kind": "Home",
         "price": "8,900",
@@ -80,7 +80,7 @@
     "property_3": {
         "id": "property_3",
         "delay": "0.3",
-        "img": "img/property-3.jpg",
+        "img": "https://www.sunset.com/wp-content/uploads/medium_2x/hometour-Klopf-Architect-Sacramento-covered-porch-Mariko-Reed-0621.jpg",
         "tag": "For Sale",
         "kind": "Home",
         "price": "275,000",
@@ -119,7 +119,7 @@
     "property_4": {
         "id": "property_4",
         "delay": "0.4",
-        "img": "img/property-4.jpg",
+        "img": "https://trademe.tmcdn.co.nz/photoserver/480x360c/2073311495.jpg",
         "tag": "For Sell",
         "kind": "Apartment",
         "price": "15,500",
@@ -158,7 +158,7 @@
     "property_5": {
         "id": "property_5",
         "delay": "0.5",
-        "img": "img/property-5.jpg",
+        "img": "https://trademe.tmcdn.co.nz/photoserver/480x360c/2075874800.jpg",
         "tag": "For Rent",
         "kind": "Building",
         "price": "10,200",
@@ -197,7 +197,7 @@
     "property_6": {
         "id": "property_6",
         "delay": "0.6",
-        "img": "img/property-6.jpg",
+        "img": "https://i2.au.reastatic.net/800x600/f49ca2b5923a720e409c736b8d44ced715ddd21c97c7ba8e1a1fed1f9726b512/main.jpg",
         "tag": "For Sale",
         "kind": "Villa",
         "price": "450,000",
@@ -236,7 +236,7 @@
     "property_7": {
         "id": "property_7",
         "delay": "0.7",
-        "img": "https://lh3.googleusercontent.com/_n-k4CWtfIb_DlBmWmy4J8ShE8lDME7lnvDbxmYxK89a0u4VGIaKrumtaxhUNHrawFbokYxZBUx_pJHch8XwXkIA33PstsSjRIjaMnBUMEpy=s750",
+        "img": "https://www.homestratosphere.com/wp-content/uploads/2014/09/Curb-view-of-magnifcent-San-Vincente-House-by-McClean-Designs.jpg",
         "tag": "For Sell",
         "kind": "Apartment",
         "price": "9,800",
@@ -781,7 +781,7 @@
     "property_21": {
         "id": "property_21",
         "delay": "2.1",
-        "img": "https://i2.au.reastatic.net/800x600/5a021af0e65546875b5561416b84210b87299c68c852c7cf7110dab197c10760/main.jpg",
+        "img": "https://images.squarespace-cdn.com/content/v1/5936f6e5440243161ff53a21/1624558275972-T45V6M9NM5W8TNJJZJ6L/5822+Club+Oaks+-+Final+Gallery-2.jpg",
         "tag": "For Sale",
         "kind": "Condo",
         "price": "375,000",
