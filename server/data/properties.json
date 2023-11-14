@@ -1,0 +1,1180 @@
+{
+    "property_1": {
+        "id": "property_1",
+        "delay": "0.1",
+        "img": "img/property-1.jpg",
+        "tag": "For Sell",
+        "kind": "Apartment",
+        "price": "12,345",
+        "title": "Golden Urban House",
+        "address": "123 Street, New York, USA",
+        "dimension": "1000",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Swimming Pool", "Gym", "Parking", "Central Heating", "Walk-in Closet"],
+        "year_built": 2005,
+        "contact": {
+        "name": "John Doe",
+        "email": "john.doe@example.com",
+        "phone": "+1 123-456-7890"
+        },
+        "description": "A stunning urban apartment with modern amenities and a spacious layout.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_2": {
+        "id": "property_2",
+        "delay": "0.2",
+        "img": "img/property-2.jpg",
+        "tag": "For Rent",
+        "kind": "Home",
+        "price": "8,900",
+        "title": "Luxury Condo Downtown",
+        "address": "456 Avenue, Los Angeles, USA",
+        "dimension": "800",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["Fitness Center", "Private Garden", "Security System", "Balcony", "Fireplace"],
+        "year_built": 2012,
+        "contact": {
+            "name": "Jane Johnson",
+            "email": "jane.johnson@example.com",
+            "phone": "+1 234-567-8901"
+        },
+        "description": "A luxurious downtown condo with exclusive amenities and a prime location.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_3": {
+        "id": "property_3",
+        "delay": "0.3",
+        "img": "img/property-3.jpg",
+        "tag": "For Sale",
+        "kind": "Home",
+        "price": "275,000",
+        "title": "Cozy Suburban Home",
+        "address": "789 Lane, Chicago, USA",
+        "dimension": "1500",
+        "beds": "4",
+        "bath": "3",
+        "amenities": ["Backyard Garden", "Hardwood Floors", "Home Office", "Walk-in Pantry", "Attached Garage"],
+        "year_built": 2008,
+        "contact": {
+        "name": "Bob Smith",
+        "email": "bob.smith@example.com",
+        "phone": "+1 345-678-9012"
+        },
+        "description": "A charming suburban home with modern features and a peaceful ambiance.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_4": {
+        "id": "property_4",
+        "delay": "0.4",
+        "img": "img/property-4.jpg",
+        "tag": "For Sell",
+        "kind": "Apartment",
+        "price": "15,500",
+        "title": "Downtown Loft",
+        "address": "101 Main Street, San Francisco, USA",
+        "dimension": "1200",
+        "beds": "1",
+        "bath": "1",
+        "amenities": ["City View", "Hardwood Floors", "Security System", "Concierge Service", "Fitness Center"],
+        "year_built": 2014,
+        "contact": {
+        "name": "Alice Johnson",
+        "email": "alice.johnson@example.com",
+        "phone": "+1 567-890-1234"
+        },
+        "description": "A modern studio with a stunning city view and convenient amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_5": {
+        "id": "property_5",
+        "delay": "0.5",
+        "img": "img/property-5.jpg",
+        "tag": "For Rent",
+        "kind": "Building",
+        "price": "10,200",
+        "title": "Modern Townhouse",
+        "address": "202 Elm Avenue, Miami, USA",
+        "dimension": "1100",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Private Garden", "Balcony", "Fireplace", "Attached Garage", "Smart Home Features"],
+        "year_built": 2016,
+        "contact": {
+        "name": "Eva White",
+        "email": "eva.white@example.com",
+        "phone": "+1 678-901-2345"
+        },
+        "description": "A modern townhouse with a private garden and smart home features.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_6": {
+        "id": "property_6",
+        "delay": "0.6",
+        "img": "img/property-6.jpg",
+        "tag": "For Sale",
+        "kind": "Villa",
+        "price": "450,000",
+        "title": "Luxurious Beachfront Villa",
+        "address": "123 Ocean Drive, Malibu, USA",
+        "dimension": "2000",
+        "beds": "5",
+        "bath": "4",
+        "amenities": ["Private Beach Access", "Infinity Pool", "Gourmet Kitchen", "Spa", "Ocean View Terrace"],
+        "year_built": 2010,
+        "contact": {
+            "name": "Emily Johnson",
+            "email": "emily.johnson@example.com",
+            "phone": "+1 345-678-9012"
+        },
+        "description": "An exquisite beachfront villa with panoramic ocean views and luxurious amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_7": {
+        "id": "property_7",
+        "delay": "0.7",
+        "img": "https://lh3.googleusercontent.com/_n-k4CWtfIb_DlBmWmy4J8ShE8lDME7lnvDbxmYxK89a0u4VGIaKrumtaxhUNHrawFbokYxZBUx_pJHch8XwXkIA33PstsSjRIjaMnBUMEpy=s750",
+        "tag": "For Sell",
+        "kind": "Apartment",
+        "price": "9,800",
+        "title": "Downtown Studio",
+        "address": "789 Maple Street, Seattle, USA",
+        "dimension": "750",
+        "beds": "0",
+        "bath": "1",
+        "amenities": ["City View", "Modern Design", "Convenient Location", "Security System", "Fitness Center"],
+        "year_built": 2015,
+        "contact": {
+            "name": "Alex Smith",
+            "email": "alex.smith@example.com",
+            "phone": "+1 456-789-0123"
+        },
+        "description": "A stylish downtown studio with city views, modern design, and convenient amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_8": {
+        "id": "property_8",
+        "delay": "0.8",
+        "img": "https://i2.au.reastatic.net/800x600/796e0d69e3420dd766df7676a66f0df154e356bf88e91ec560a6687926cb6f19/main.jpg",
+        "tag": "For Rent",
+        "kind": "Townhouse",
+        "price": "7,500",
+        "title": "City View Condo",
+        "address": "456 Pine Avenue, Boston, USA",
+        "dimension": "900",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["City View", "Private Balcony", "Modern Kitchen", "Attached Garage", "Pet-Friendly"],
+        "year_built": 2018,
+        "contact": {
+            "name": "William White",
+            "email": "william.white@example.com",
+            "phone": "+1 567-890-1234"
+        },
+        "description": "A townhouse with a city view, modern kitchen, and convenient amenities for urban living.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_9": {
+        "id": "property_9",
+        "delay": "0.9",
+        "img": "https://i2.au.reastatic.net/800x600/fd98ddb973265bc2d19cc099d416c4497a7c0dd5f83d3d19340aa14e0ef6f6b7/main.jpg",
+        "tag": "For Sale",
+        "kind": "Townhouse",
+        "price": "325,000",
+        "title": "Charming Suburban Home",
+        "address": "101 Spruce Lane, Denver, USA",
+        "dimension": "1400",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Spacious Yard", "Hardwood Floors", "Fireplace", "Home Office", "Attached Garage"],
+        "year_built": 2006,
+        "contact": {
+            "name": "Sophia Brown",
+            "email": "sophia.brown@example.com",
+            "phone": "+1 678-901-2345"
+        },
+        "description": "A charming suburban home with a spacious yard and classic features.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_10": {
+        "id": "property_10",
+        "delay": "1.0",
+        "img": "https://i2.au.reastatic.net/800x600/d0fc39366390aab2f87de3c87e171143dde924b1fb3755a7099c68dba54916d1/main.jpg",
+        "tag": "For Rent",
+        "kind": "Apartment",
+        "price": "11,200",
+        "title": "Modern High-Rise Apartment",
+        "address": "202 Oak Street, Austin, USA",
+        "dimension": "950",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["Skyline View", "Modern Design", "Fitness Center", "Balcony", "Smart Home Features"],
+        "year_built": 2017,
+        "contact": {
+            "name": "Michael Davis",
+            "email": "michael.davis@example.com",
+            "phone": "+1 789-012-3456"
+        },
+        "description": "A modern high-rise apartment with a skyline view, fitness center, and smart home features.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_11": {
+        "id": "property_11",
+        "delay": "1.1",
+        "img": "https://i2.au.reastatic.net/800x600/93f2fb92774177926ca3874097d4be42aa77443233064901fadab9d97faf8d0e/main.jpg",
+        "tag": "For Sell",
+        "kind": "Office",
+        "price": "8,500",
+        "title": "Luxury Waterfront Condo",
+        "address": "123 River Road, San Diego, USA",
+        "dimension": "1100",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["Waterfront View", "Private Office Spaces", "Conference Rooms", "Fitness Center", "24/7 Security"],
+        "year_built": 2016,
+        "contact": {
+            "name": "Olivia Taylor",
+            "email": "olivia.taylor@example.com",
+            "phone": "+1 901-234-5678"
+        },
+        "description": "A luxury waterfront condo with private office spaces, conference rooms, and scenic views.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_12": {
+        "id": "property_12",
+        "delay": "1.2",
+        "img": "https://images.ratemyagent.com/ratemyagent/image/upload/q_auto:eco,f_auto,w_530,h_400,c_fill,g_center,fl_progressive/cdn/7946c5c7-2349-ed11-abbf-02ef25cab6bc",
+        "tag": "For Sale",
+        "kind": "Home",
+        "price": "290,000",
+        "title": "Country Farmhouse",
+        "address": "456 Farm Lane, Nashville, USA",
+        "dimension": "1800",
+        "beds": "4",
+        "bath": "3",
+        "amenities": ["Rural Setting", "Front Porch", "Fireplace", "Gourmet Kitchen", "Spacious Yard"],
+        "year_built": 2009,
+        "contact": {
+            "name": "Daniel Wilson",
+            "email": "daniel.wilson@example.com",
+            "phone": "+1 234-567-8901"
+        },
+        "description": "A charming country farmhouse with a rural setting, front porch, and gourmet kitchen.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_13": {
+        "id": "property_13",
+        "delay": "1.3",
+        "img": "https://i2.au.reastatic.net/800x600/89f30207981173b97742450a74bafb488e5d8ca935ec47b06489a87904cafe95/main.jpg",
+        "tag": "For Rent",
+        "kind": "Villa",
+        "price": "14,500",
+        "title": "Elegant Villa with Pool",
+        "address": "789 Sun Avenue, Orlando, USA",
+        "dimension": "2200",
+        "beds": "5",
+        "bath": "4",
+        "amenities": ["Private Pool", "Garden", "High-End Finishes", "Spa", "Outdoor Entertainment Area"],
+        "year_built": 2014,
+        "contact": {
+            "name": "Sophie Miller",
+            "email": "sophie.miller@example.com",
+            "phone": "+1 345-678-9012"
+        },
+        "description": "An elegant villa with a private pool, garden, and high-end finishes for luxurious living.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_14": {
+        "id": "property_14",
+        "delay": "1.4",
+        "img": "https://img.agentaccount.com/1498bfb419e0cdd8bce9cd417bc864368c64e285",
+        "tag": "For Sell",
+        "kind": "Apartment",
+        "price": "13,200",
+        "title": "Penthouse with City Views",
+        "address": "101 Skyline Street, Houston, USA",
+        "dimension": "1300",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Penthouse Floor", "City Views", "Modern Design", "Private Terrace", "Smart Home Features"],
+        "year_built": 2019,
+        "contact": {
+            "name": "Ethan Turner",
+            "email": "ethan.turner@example.com",
+            "phone": "+1 456-789-0123"
+        },
+        "description": "A penthouse with breathtaking city views, modern design, and private terrace.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_15": {
+        "id": "property_15",
+        "delay": "1.5",
+        "img": "https://bucket-api.domain.com.au/v1/bucket/image/2018658196_16_1_230720_101026-w2048-h1364",
+        "tag": "For Rent",
+        "kind": "Building",
+        "price": "9,700",
+        "title": "Downtown Luxury Condo",
+        "address": "202 Glass Avenue, Atlanta, USA",
+        "dimension": "950",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["Luxury Condo Building", "City Skyline Views", "Concierge Service", "Fitness Center", "Rooftop Terrace"],
+        "year_built": 2017,
+        "contact": {
+            "name": "Ava Clark",
+            "email": "ava.clark@example.com",
+            "phone": "+1 567-890-1234"
+        },
+        "description": "A luxurious downtown condo with city skyline views and premium building amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_16": {
+        "id": "property_16",
+        "delay": "1.6",
+        "img": "https://i2.au.reastatic.net/800x600/5115698ee132a14f067390052c952a18c12942c0d84c4ce0cd17a900dfcc36a7/main.jpg",
+        "tag": "For Sale",
+        "kind": "Home",
+        "price": "255,000",
+        "title": "Historic Colonial Home",
+        "address": "456 History Lane, Philadelphia, USA",
+        "dimension": "1600",
+        "beds": "4",
+        "bath": "3",
+        "amenities": ["Historic Charm", "Original Architecture", "Fireplace", "Spacious Backyard", "Wraparound Porch"],
+        "year_built": 1925,
+        "contact": {
+            "name": "Isaac Rodriguez",
+            "email": "isaac.rodriguez@example.com",
+            "phone": "+1 678-901-2345"
+        },
+        "description": "A historic colonial home with charm, original architecture, and a spacious backyard.","images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_17": {
+        "id": "property_17",
+        "delay": "1.7",
+        "img": "https://i2.au.reastatic.net/440x324/ecfe4d4555e3189b86e7d18c2569f7b894f8660d826c8392ad14d96ae60c045c/main.jpg",
+        "tag": "For Sell",
+        "kind": "Apartment",
+        "price": "11,900",
+        "title": "Urban Loft Living",
+        "address": "789 Loft Street, Portland, USA",
+        "dimension": "800",
+        "beds": "1",
+        "bath": "1",
+        "amenities": ["Loft Style", "Urban Living", "Exposed Brick", "Modern Kitchen", "Balcony"],
+        "year_built": 2016,
+        "contact": {
+            "name": "Liam Wilson",
+            "email": "liam.wilson@example.com",
+            "phone": "+1 789-012-3456"
+        },
+        "description": "Experience urban loft living with this stylish apartment featuring exposed brick and modern amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_18": {
+        "id": "property_18",
+        "delay": "1.8",
+        "img": "https://images.prop24.com/315292997/Crop600x400",
+        "tag": "For Rent",
+        "kind": "Office",
+        "price": "7,800",
+        "title": "Modern Condo with Balcony",
+        "address": "101 Balcony Avenue, Dallas, USA",
+        "dimension": "900",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["Modern Office Spaces", "Balcony", "Meeting Rooms", "Cafeteria", "High-Speed Internet"],
+        "year_built": 2020,
+        "contact": {
+            "name": "Mia Turner",
+            "email": "mia.turner@example.com",
+            "phone": "+1 890-123-4567"
+        },
+        "description": "A modern office condo with stylish office spaces, balcony, and modern facilities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_19": {
+        "id": "property_19",
+        "delay": "1.9",
+        "img": "https://media.rightmove.co.uk/dir/crop/10:9-16:9/2k/1628/138475991/1628_WEY307840_IMG_03_0001_max_476x317.jpeg",
+        "tag": "For Sale",
+        "kind": "Home",
+        "price": "310,000",
+        "title": "Rural Retreat",
+        "address": "202 Retreat Road, Phoenix, USA",
+        "dimension": "1400",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Peaceful Surroundings", "Large Garden", "Outdoor Seating Area", "Modern Interior", "Country Living"],
+        "year_built": 2012,
+        "contact": {
+            "name": "Lucas Martin",
+            "email": "lucas.martin@example.com",
+            "phone": "+1 901-234-5678"
+        },
+        "description": "Escape to this rural retreat with peaceful surroundings and modern interior design.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_20": {
+        "id": "property_20",
+        "delay": "2.0",
+        "img": "https://rimh2.domainstatic.com.au/QhD9ZuQpRNq7_5HCAulkjjue2oI=/660x440/filters:format(jpeg):quality(80)/16727099_1_1_231102_042555-w5760-h3840",
+        "tag": "For Rent",
+        "kind": "Apartment",
+        "price": "10,800",
+        "title": "Downtown Luxury Apartment",
+        "address": "123 Luxury Street, Las Vegas, USA",
+        "dimension": "1000",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["Luxury High-Rise", "Downtown Views", "Fitness Center", "Swimming Pool", "Smart Home Features"],
+        "year_built": 2015,
+        "contact": {
+            "name": "Nora Hernandez",
+            "email": "nora.hernandez@example.com",
+            "phone": "+1 234-567-8901"
+        },
+        "description": "Live in luxury with this downtown apartment offering high-rise living and modern amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    "property_21": {
+        "id": "property_21",
+        "delay": "2.1",
+        "img": "https://i2.au.reastatic.net/800x600/5a021af0e65546875b5561416b84210b87299c68c852c7cf7110dab197c10760/main.jpg",
+        "tag": "For Sale",
+        "kind": "Condo",
+        "price": "375,000",
+        "title": "Modern City Condo",
+        "address": "456 Urban Street, Chicago, USA",
+        "dimension": "1100",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["City View", "Modern Design", "Balcony", "Fitness Center", "Secure Parking"],
+        "year_built": 2018,
+        "contact": {
+            "name": "Ella Adams",
+            "email": "ella.adams@example.com",
+            "phone": "+1 345-678-9012"
+        },
+        "description": "A modern city condo with stunning city views, contemporary design, and premium amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_22": {
+        "id": "property_22",
+        "delay": "2.2",
+        "img": "https://i2.au.reastatic.net/800x600/f1e4d04e9d5abf42bcf0d15aa4811bf5d39f06a26c4db0dbf775858861a568ef/main.jpg",
+        "tag": "For Rent",
+        "kind": "Apartment",
+        "price": "9,500",
+        "title": "Luxury Downtown Loft",
+        "address": "101 Loft Avenue, New York, USA",
+        "dimension": "800",
+        "beds": "1",
+        "bath": "1",
+        "amenities": ["Loft Style", "Downtown Living", "Exposed Brick", "Modern Kitchen", "Rooftop Deck"],
+        "year_built": 2019,
+        "contact": {
+            "name": "Oscar Turner",
+            "email": "oscar.turner@example.com",
+            "phone": "+1 456-789-0123"
+        },
+        "description": "Experience luxury living in this downtown loft with exposed brick and a private rooftop deck.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_23": {
+        "id": "property_23",
+        "delay": "2.3",
+        "img": "https://i2.au.reastatic.net/800x600/fd98ddb973265bc2d19cc099d416c4497a7c0dd5f83d3d19340aa14e0ef6f6b7/main.jpg",
+        "tag": "For Sale",
+        "kind": "Townhouse",
+        "price": "420,000",
+        "title": "Chic Urban Townhome",
+        "address": "789 Metropolis Street, San Francisco, USA",
+        "dimension": "1200",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Urban Living", "Contemporary Design", "Private Patio", "Garage Parking", "Smart Home Features"],
+        "year_built": 2017,
+        "contact": {
+            "name": "Liam Turner",
+            "email": "liam.turner@example.com",
+            "phone": "+1 567-890-1234"
+        },
+        "description": "Live in style with this chic urban townhome featuring contemporary design and a private patio.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_24": {
+        "id": "property_24",
+        "delay": "2.4",
+        "img": "https://i2.au.reastatic.net/800x600/31eb09e9ec07809f535d37ce554276df2fba4f23e351ddfc183251d925b792e6/main.jpg",
+        "tag": "For Sell",
+        "kind": "Villa",
+        "price": "18,000",
+        "title": "Mansion with Scenic Views",
+        "address": "123 Summit Drive, Los Angeles, USA",
+        "dimension": "3500",
+        "beds": "6",
+        "bath": "5",
+        "amenities": ["Scenic Views", "Swimming Pool", "Gourmet Kitchen", "Home Theater", "Private Gym"],
+        "year_built": 2015,
+        "contact": {
+            "name": "Mila Davis",
+            "email": "mila.davis@example.com",
+            "phone": "+1 678-901-2345"
+        },
+        "description": "Experience luxury living in this mansion with scenic views, a swimming pool, and private amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_25": {
+        "id": "property_25",
+        "delay": "2.5",
+        "img": "https://images.prop24.com/315292997/Crop600x400",
+        "tag": "For Rent",
+        "kind": "Office",
+        "price": "8,200",
+        "title": "Modern Office Space",
+        "address": "101 Business Avenue, Miami, USA",
+        "dimension": "1000",
+        "beds": "0",
+        "bath": "1",
+        "amenities": ["Open Workspace", "Meeting Rooms", "Cafeteria", "High-Speed Internet", "24/7 Security"],
+        "year_built": 2021,
+        "contact": {
+            "name": "Lucas Adams",
+            "email": "lucas.adams@example.com",
+            "phone": "+1 890-123-4567"
+        },
+        "description": "Boost productivity with this modern office space equipped with open workspaces and meeting rooms.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_26": {
+        "id": "property_26",
+        "delay": "2.6",
+        "img": "https://img.agentaccount.com/1498bfb419e0cdd8bce9cd417bc864368c64e285",
+        "tag": "For Sale",
+        "kind": "Apartment",
+        "price": "11,800",
+        "title": "Sky-High Penthouse",
+        "address": "456 Skyline Street, Denver, USA",
+        "dimension": "1400",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["Penthouse Floor", "Panoramic Views", "Luxury Finishes", "Private Terrace", "Smart Home Features"],
+        "year_built": 2016,
+        "contact": {
+            "name": "Olivia Turner",
+            "email": "olivia.turner@example.com",
+            "phone": "+1 901-234-5678"
+        },
+        "description": "Live in the lap of luxury with this sky-high penthouse offering panoramic views and high-end finishes.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_27": {
+        "id": "property_27",
+        "delay": "2.7",
+        "img": "https://bucket-api.domain.com.au/v1/bucket/image/2018658196_16_1_230720_101026-w2048-h1364",
+        "tag": "For Rent",
+        "kind": "Building",
+        "price": "12,500",
+        "title": "Modern Commercial Building",
+        "address": "789 Business Street, Austin, USA",
+        "dimension": "2000",
+        "beds": "0",
+        "bath": "1",
+        "amenities": ["Commercial Spaces", "Modern Architecture", "Central Location", "Parking Garage", "High-Speed Elevators"],
+        "year_built": 2022,
+        "contact": {
+            "name": "Liam Davis",
+            "email": "liam.davis@example.com",
+            "phone": "+1 234-567-8901"
+        },
+        "description": "Elevate your business with this modern commercial building featuring commercial spaces and central location.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_28": {
+        "id": "property_28",
+        "delay": "2.8",
+        "img": "https://i2.au.reastatic.net/800x600/5115698ee132a14f067390052c952a18c12942c0d84c4ce0cd17a900dfcc36a7/main.jpg",
+        "tag": "For Sell",
+        "kind": "Home",
+        "price": "325,000",
+        "title": "Modern Family Home",
+        "address": "101 Family Lane, Seattle, USA",
+        "dimension": "1600",
+        "beds": "4",
+        "bath": "3",
+        "amenities": ["Family-Friendly", "Modern Interior", "Spacious Yard", "Home Office", "Smart Home Features"],
+        "year_built": 2019,
+        "contact": {
+            "name": "Nora Turner",
+            "email": "nora.turner@example.com",
+            "phone": "+1 345-678-9012"
+        },
+        "description": "Create lasting memories in this modern family home with a spacious yard and family-friendly amenities.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_29": {
+        "id": "property_29",
+        "delay": "2.9",
+        "img": "https://i2.au.reastatic.net/440x324/ecfe4d4555e3189b86e7d18c2569f7b894f8660d826c8392ad14d96ae60c045c/main.jpg",
+        "tag": "For Sale",
+        "kind": "Townhouse",
+        "price": "390,000",
+        "title": "City Center Townhome",
+        "address": "456 City Street, Portland, USA",
+        "dimension": "1300",
+        "beds": "3",
+        "bath": "2",
+        "amenities": ["City Center Living", "Contemporary Design", "Private Patio", "Garage Parking", "Smart Home Features"],
+        "year_built": 2016,
+        "contact": {
+            "name": "Oscar Adams",
+            "email": "oscar.adams@example.com",
+            "phone": "+1 456-789-0123"
+        },
+        "description": "Live in the heart of the city with this townhome featuring contemporary design and a private patio.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    },
+    
+    "property_30": {
+        "id": "property_30",
+        "delay": "3.0",
+        "img": "https://rimh2.domainstatic.com.au/QhD9ZuQpRNq7_5HCAulkjjue2oI=/660x440/filters:format(jpeg):quality(80)/16727099_1_1_231102_042555-w5760-h3840",
+        "tag": "For Rent",
+        "kind": "Apartment",
+        "price": "10,500",
+        "title": "City View Apartment",
+        "address": "123 City Street, Houston, USA",
+        "dimension": "950",
+        "beds": "2",
+        "bath": "2",
+        "amenities": ["City Views", "Modern Design", "Fitness Center", "Swimming Pool", "Balcony"],
+        "year_built": 2020,
+        "contact": {
+            "name": "Ella Turner",
+            "email": "ella.turner@example.com",
+            "phone": "+1 567-890-1234"
+        },
+        "description": "Enjoy breathtaking city views in this modern apartment with a fitness center and swimming pool.",
+        "images": [
+            {
+                "original": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg",
+                "thumbnail": "https://media.designcafe.com/wp-content/uploads/2022/07/29185240/industrial-rustic-living-room-in-earthy-tones.jpg"
+            },
+            {
+                "original": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg",
+                "thumbnail": "https://static.wixstatic.com/media/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg/v1/fill/w_824,h_582,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/af06e8_a90c5dde7301491a9fa30ef6e9bfed5f~mv2.jpg"
+            },
+            {
+                "original": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg",
+                "thumbnail": "https://www.janelockhart.com/portfolio/images/JODIE001.jpg"
+            },
+            {
+                "original": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png",
+                "thumbnail": "https://www.vrogue.co/top-featureds-www.theghanareport.com/wp-content/uploads/2022/12/05_interiordesignercagla_Screen_Shot_2022-03-24_at_2.52.10_PM.png"
+            }
+          ]
+    }
+}    
