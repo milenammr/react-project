@@ -5,7 +5,7 @@ import PropertiesContainer from "../Properties/PropertiesContainer";
 function PropertyList() {
     return (
         <>
-            <Header title={'Property List'}/>
+            <Header title={'Property List'} img={'../img/property_list.png'}/>
             <Search />
             <PropertiesContainer />
         </>

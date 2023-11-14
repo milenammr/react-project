@@ -6,7 +6,7 @@ import PropertyAgentsContainer from '../PropertyAgents/PropertyAgentsContainer';
 function About() {
   return (
     <>
-        <Header title={'About Us'}/>
+        <Header title={'About Us'} img={'../img/about_us.png'}/>
         <Search />
         <AboutUs />
         <PropertyAgentsContainer />

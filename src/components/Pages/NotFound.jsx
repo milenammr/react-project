@@ -5,7 +5,7 @@ import Error404 from "../Error404/Error404";
 function NotFound() {
     return (
         <>
-            <Header title={'404 Page Not Found'}/>
+            <Header title={'404 Page Not Found'} img={'../img/not-found.png'}/>
             <Search />
             <Error404 />
         </>

@@ -2,34 +2,36 @@ import { useEffect, useState } from "react";
 import * as service from "../../services/service";
 import { useParams } from "react-router-dom";
 import Header from "../Headers/Header";
-import Search from '../Search/Search';
+import ImageGallery from "react-image-gallery";
+import "react-image-gallery/styles/css/image-gallery.css";
 
 function PropertyDetails() {
     const { id } = useParams();
-    const [property, setProperty] = useState({});
+    const [property, setProperty] = useState();
 
     useEffect(() => {
         service.getProperty(id)
         .then(setProperty)
     }, [id]);
 
+    if (!property) {
+        return <></>;
+    }
+
     return (
         <>  
-            <Header title={property.title}/>
-            <Search />
+            <Header title={property.title} img={property.img} address={property.address} tag={property.tag}/>
 
-            <div className="container-xxl py-5">
+            <div className="container-xxl">
                 <div className="container">
-                    <div className="row g-5 align-items-center">
-                        <div className="col-lg-6 wow fadeIn" data-wow-delay="0.1s">
-                            <div className="about-img position-relative overflow-hidden p-5 pe-0">
-                                <img className="img-fluid w-100" src={property.img}/>
-                            </div>
+                    <div className="row g-5 align-items-center mt-2">
+                        <div className="col-lg-6 wow px-5 fadeIn" data-wow-delay="0.1s">
+                            <ImageGallery items={property.images} />
                         </div>
                         <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                             <div className="d-flex justify-content-between">
                                 <h1 className="mb-4">{property.kind}</h1>
-                                <div className="bg-primary rounded text-white mb-5 py-1 px-3">{property.tag}</div>
+                                {/* <div className="bg-primary rounded text-white mb-5 py-1 px-3">{property.tag}</div> */}
                             </div>
                             <h3 className="mb-4 text-primary">${property.price}</h3>
                             <p className="mb-4">{property.description}</p>
@@ -43,7 +45,6 @@ function PropertyDetails() {
                                 <small className="flex-fill text-center border-end py-2"><i className="fa fa-bed text-primary me-2"></i>{property.beds} Bed</small>
                                 <small className="flex-fill text-center py-2"><i className="fa fa-bath text-primary me-2"></i>{property.bath} Bath</small>
                             </div>
-                            <p><i className="fa fa-map-marker-alt text-primary me-2"></i>{property.address}</p>
                         </div>
                     </div>
                 </div>
