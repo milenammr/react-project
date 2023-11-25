@@ -1,10 +1,11 @@
 import { Link } from 'react-router-dom';
+import Path from '../../paths';
 /* eslint-disable react/prop-types */
 
 function Category(props) {
     return (
         <div className="col-lg-3 col-sm-6 wow fadeInUp" data-wow-delay={`${props.delay}s`}>
-            <Link className="cat-item d-block bg-light text-center rounded p-3" to={`/property-list/${props.type}`}>
+            <Link className="cat-item d-block bg-light text-center rounded p-3" to={`${Path.PropertyList}/${props.type}`}>
                 <div className="rounded p-4">
                     <div className="icon mb-3">
                         <img className="img-fluid" src={props.img} alt="Icon"/>

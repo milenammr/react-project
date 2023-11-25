@@ -2,6 +2,7 @@ import OwlCarousel from "react-owl-carousel";
 import 'owl.carousel/dist/assets/owl.carousel.css';
 import 'owl.carousel/dist/assets/owl.theme.default.css';
 import { Link } from "react-router-dom";
+import Path from '../../paths';
 import './HomeHeader.css';
 
 
@@ -13,7 +14,7 @@ function HomeHeader() {
                     <h1 className="display-5 animated fadeIn mb-4">Find A <span className="text-primary">Perfect Home</span> To Live With Your Family</h1>
                     <p className="animated fadeIn mb-4 pb-2">Vero elitr justo clita lorem. Ipsum dolor at sed stet
                         sit diam no. Kasd rebum ipsum et diam justo clita et kasd rebum sea elitr.</p>
-                    <Link to="/property-list" className="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</Link>
+                    <Link to={Path.PropertyList} className="btn btn-primary py-3 px-5 me-3 animated fadeIn">Get Started</Link>
                 </div>
                 <div className="col-md-6 animated fadeIn">
                     <OwlCarousel 
