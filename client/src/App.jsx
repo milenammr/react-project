@@ -7,9 +7,14 @@ import PropertyList from './components/Pages/PropertyList';
 import Contact from './components/Pages/Contact';
 import Footer from './components/Footer/Footer';
 import PropertyDetails from './components/Pages/PropertyDetails';
-import PropertyTypes from './components/Pages/PropertyTypes';
+import MyProperties from './components/Pages/MyProperties';
+// import PropertyTypes from './components/Pages/PropertyTypes';
+import SignIn from './components/Pages/SignIn';
+import SignUp from './components/Pages/SignUp';
+import SignOut from './components/Pages/SignOut';
 import NotFound from './components/Pages/NotFound';
 import Path from './paths';
+import AuthGuard from './guard/AuthGuard';
 
 function App() {
 
@@ -24,8 +29,15 @@ function App() {
                     <Route path={Path.PropertyList} element={<PropertyList />} />
                     <Route path={Path.PropertyID} element={<PropertyDetails />} />
                     <Route path={Path.Contacts} element={<Contact />} />
+                    <Route path={Path.SignIn} element={<SignIn />} />
+                    <Route path={Path.SignUp} element={<SignUp />} />
+                    
                     {/* <Route path="/property-list/:type" element={<PropertyTypes />} /> */}
                     <Route path='*' element={<NotFound />} />
+                    <Route element={<AuthGuard />}>
+                        <Route path={Path.SignOut} element={<SignOut />} />
+                        <Route path={Path.MyProperties} element={<MyProperties />} />
+                    </Route>
                 </Routes >
                 
                 <Footer />

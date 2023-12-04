@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import * as service from "../../services/service";
+import * as service from "../../services/propertiesService";
 import { useParams } from "react-router-dom";
 import Header from "../Headers/Header";
 import ImageGallery from "react-image-gallery";
@@ -10,7 +10,7 @@ function PropertyDetails() {
     const [property, setProperty] = useState();
 
     useEffect(() => {
-        service.getProperty(id)
+        service.getOne(id)
         .then(setProperty)
     }, [id]);
 
@@ -26,7 +26,7 @@ function PropertyDetails() {
                 <div className="container">
                     <div className="row g-5 align-items-center mt-2">
                         <div className="col-lg-6 wow px-5 fadeIn" data-wow-delay="0.1s">
-                            <ImageGallery items={property.images} />
+                            <ImageGallery items={property?.images} />
                         </div>
                         <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
                             <div className="d-flex justify-content-between">

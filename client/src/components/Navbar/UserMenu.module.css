@@ -1,0 +1,4 @@
+.dashed-green-border {
+    border: 1px dashed rgba(0, 185, 142, .3);
+    cursor: pointer;
+}

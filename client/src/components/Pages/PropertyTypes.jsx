@@ -12,6 +12,7 @@ function PropertyTypes() {
         service.getAllProperties()
         .then(setProperties)
     }, [type]);
+    
     return (
         <div>
             {properties}

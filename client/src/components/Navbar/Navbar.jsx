@@ -1,7 +1,15 @@
 import {Link} from 'react-router-dom';
+import { useContext } from 'react';
+import AuthContext from '../../contexts/authContext';
 import Path from '../../paths';
+import UserMenu from './UserMenu';
 
 function Navbar() {
+	const {
+        isAuthenticated,
+        username,
+    } = useContext(AuthContext);
+
 	return (
 		<div className="container-fluid nav-bar bg-transparent">
 			<nav className="navbar navbar-expand-lg bg-white navbar-light py-0 px-4">
@@ -29,7 +37,13 @@ function Navbar() {
 						</div> */}
 						<Link to={Path.Contacts} className="nav-item nav-link">Contact</Link>
 					</div>
-					<Link to="" className="btn btn-primary px-3 d-none d-lg-flex">Log In</Link>
+					{!isAuthenticated && (
+						<Link to={Path.SignIn} className="btn btn-primary px-3 d-none d-lg-flex">Sign In</Link>
+					)}
+					{isAuthenticated && (
+						<UserMenu name={username}/>
+						// <Link to="" className="btn btn-primary px-3 d-none d-lg-flex">Log Out</Link>
+					)}
 				</div>
 			</nav>
 		</div>

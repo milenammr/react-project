@@ -1,7 +1,7 @@
-const baseURL = 'http://localhost:3030/jsonstore';
+const baseURL = 'http://localhost:3030/data/properties';
 
 export const getAllProperties = async () => {
-    const response = await fetch(`${baseURL}/properties`);
+    const response = await fetch(`${baseURL}`);
     const result = await response.json();
     const data = Object.values(result);
 
@@ -9,7 +9,7 @@ export const getAllProperties = async () => {
 };
 
 export const getProperty = async (id) => {
-    const response = await fetch(`${baseURL}/properties/${id}`);
+    const response = await fetch(`${baseURL}/${id}`);
     const result = await response.json();
     const data = result;
 
@@ -18,7 +18,7 @@ export const getProperty = async (id) => {
 
 export const deleteProperty = async (id) => {
     
-    const response = await fetch(`${baseURL}/properties/${id}`, {
+    const response = await fetch(`${baseURL}/${id}`, {
         method: 'DELETE'
     });
     const result = await response.json();

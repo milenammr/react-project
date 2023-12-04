@@ -6,9 +6,10 @@ import ConfirmDeleteModal from "../Modals/ConfirmDeleteModal"
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
-export default function PropertiesContainer() {
-    const [properties, setProperties] = useState([]); 
-    const [isLoading, setLoading] = useState(false); // for spinner
+// eslint-disable-next-line react/prop-types
+export default function PropertiesContainer({allProperties = []}) {
+    // const [properties, setProperties] = useState([]); 
+    // const [isLoading, setLoading] = useState(false); // for spinner
     const [selectedProperty, setSelectedProperty] = useState(null);
     const [showDeleteModal, setShowDeleteModal] = useState(false); // for delete modal
 
@@ -16,18 +17,10 @@ export default function PropertiesContainer() {
     // const itemsPerPage = 6;
     // const currentData = properties.slice(startIndex, startIndex + itemsPerPage);
 
-    useEffect(() => {
-        setLoading(true)
-        service.getAllProperties()
-            .then(result => setProperties(result))
-            .catch(err => console.error(err))
-            .finally(() => setLoading(false))
-    }, []);
-
     // const handleNextClick = () => {
     //     setStartIndex(startIndex + itemsPerPage);
     // };
-
+// console.log(forRent);
     const setPropertyID = (id) => {
         setSelectedProperty(id);
         setShowDeleteModal(true);
@@ -35,13 +28,15 @@ export default function PropertiesContainer() {
     const notify = () => toast("Wow so easy !");
     const deleteProperty = async () => {
         const deletedProperty = await service.deleteProperty(selectedProperty);
-        setProperties(properties.filter(property => property.id !== selectedProperty));
+        // setProperties(properties.filter(property => property.id !== selectedProperty));
         setShowDeleteModal(false);
         console.log(deletedProperty.title);
         notify(); //TODO: show this message in a toast
         // return <p>You are successfully deleted ${deletedProperty.title}</p> //TODO: show this message in a modal
     };
-
+    const forSell = allProperties.filter(property => property.tag == "For Sell");
+    const forRent = allProperties.filter(property => property.tag == "For Rent");
+    
     return (
         <div className="container-xxl py-5">
             {showDeleteModal && (<ConfirmDeleteModal onDelete={deleteProperty} onClose={() => setShowDeleteModal(false)}/>)}
@@ -64,22 +59,19 @@ export default function PropertiesContainer() {
                             <li className="nav-item me-0">
                                 <a className="btn btn-outline-primary" data-bs-toggle="pill" href="#tab-3">For Rent</a>
                             </li>
-                            {/* <li className="nav-item me-0">
-                                <a className="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#AddPropertyModal">Add New Property</a>
-                            </li> */}
                         </ul>
                     </div>
                 </div>
                 <div className="tab-content">
-                    {isLoading && (<Spinner />)}
+                    {/* {isLoading && (<Spinner />)} */}
                     <div id="tab-1" className="tab-pane fade show p-0 active">
                         <div className="row g-4">
-                            {properties.map((property, index) => (
+                            {allProperties.map((property, index) => (
                                 <PropertyItem
-                                key={property.id}
-                                id={property.id}
+                                key={property._id}
+                                id={property._id}
                                 delay={(index * 0.2 + 0.1).toFixed(1)} 
-                                img={property.img} 
+                                imgUrl={property.imgUrl} 
                                 tag={property.tag} 
                                 kind={property.kind} 
                                 price={property.price} 
@@ -91,18 +83,16 @@ export default function PropertiesContainer() {
                                 setID={setPropertyID}/>
                             ))
                             }
-                            {/* <div className="col-12 text-center wow fadeInUp" data-wow-delay="0.1s">
-                                <button className="btn btn-primary py-3 px-5" onClick={handleNextClick}>Browse More Properties</button>
-                            </div> */}
                         </div>
                     </div>
                     <div id="tab-2" className="tab-pane fade show p-0">
                         <div className="row g-4">
-                            {/* {properties.filter(property => property.tag === 'For Sale').map( property => (
+                            {forSell.map((property, index) => (
                                 <PropertyItem
-                                key={property.id}
-                                delay={property.delay} 
-                                img={property.img} 
+                                key={property._id}
+                                id={property._id}
+                                delay={(index * 0.2 + 0.1).toFixed(1)} 
+                                imgUrl={property.imgUrl} 
                                 tag={property.tag} 
                                 kind={property.kind} 
                                 price={property.price} 
@@ -110,20 +100,20 @@ export default function PropertiesContainer() {
                                 address={property.address} 
                                 dimension={property.dimension} 
                                 beds={property.beds} 
-                                bath={property.bath} />
-                            ))} */}
-                            <div className="col-12 text-center">
-                                <a className="btn btn-primary py-3 px-5" href="">Browse More Properties</a>
-                            </div>
+                                bath={property.bath} 
+                                setID={setPropertyID}/>
+                            ))
+                            }
                         </div>
                     </div>
                     <div id="tab-3" className="tab-pane fade show p-0">
                         <div className="row g-4">
-                        {/* {properties.filter(property => property.tag === 'For Rent').map( property => (
+                            {forRent.map((property, index) => (
                                 <PropertyItem
-                                key={property.id}
-                                delay={property.delay} 
-                                img={property.img} 
+                                key={property._id}
+                                id={property._id}
+                                delay={(index * 0.2 + 0.1).toFixed(1)} 
+                                imgUrl={property.imgUrl} 
                                 tag={property.tag} 
                                 kind={property.kind} 
                                 price={property.price} 
@@ -131,11 +121,10 @@ export default function PropertiesContainer() {
                                 address={property.address} 
                                 dimension={property.dimension} 
                                 beds={property.beds} 
-                                bath={property.bath} />
-                            ))} */}
-                            <div className="col-12 text-center">
-                                <a className="btn btn-primary py-3 px-5" href="">Browse More Properties</a>
-                            </div>
+                                bath={property.bath} 
+                                setID={setPropertyID}/>
+                            ))
+                            }
                         </div>
                     </div>
                 </div>
