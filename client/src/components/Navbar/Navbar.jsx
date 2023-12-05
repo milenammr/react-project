@@ -17,7 +17,7 @@ function Navbar() {
 					<div className="icon p-2 me-2">
 						<img className="img-fluid" src="img/icon-deal.png" alt="Icon"/>
 					</div>
-					<h1 className="m-0 text-primary">Makaan</h1>
+					<h1 className="m-0 text-primary">Real Estate Hub</h1>
 				</Link>
 				<button type="button" className="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
 					<span className="navbar-toggler-icon"></span>

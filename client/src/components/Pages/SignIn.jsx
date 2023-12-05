@@ -13,10 +13,17 @@ const SignInFormKyes = {
 
 function SignIn() {
     const { loginSubmitHandler } = useContext(AuthContext);
-    const { values, onChange, onSubmit } = useForm(loginSubmitHandler, {
+
+    const validationRules = {
+        [SignInFormKyes.Email]: { required: true, email: true },
+        [SignInFormKyes.Password]: { required: true },
+    };
+
+    const { values, onChange, errors, onSubmit } = useForm(loginSubmitHandler, {
         [SignInFormKyes.Email]: '',
         [SignInFormKyes.Password]: '',
-    });
+        },
+        validationRules);
 
     return (
         <>
@@ -38,8 +45,10 @@ function SignIn() {
                                         placeholder="Email"
                                         onChange={onChange}
                                         value={values[SignInFormKyes.Email]}
+                                        
                                         />
-                                        <label htmlFor="subject">Email</label>
+                                        <label htmlFor="subject">Email<span className="text-danger">*</span></label>
+                                        {errors[SignInFormKyes.Email] && <p className="text-danger fs-6 fst-italic m-0">{errors[SignInFormKyes.Email]}</p>}
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -52,8 +61,10 @@ function SignIn() {
                                         name={SignInFormKyes.Password}
                                         onChange={onChange}
                                         value={values[SignInFormKyes.Password]}
+                                        
                                         />
-                                        <label htmlFor="subject">Password</label>
+                                        <label htmlFor="subject">Password<span className="text-danger">*</span></label>
+                                        {errors[SignInFormKyes.Password] && <p className="text-danger fs-6 fst-italic m-0">{errors[SignInFormKyes.Password]}</p>}
                                     </div>
                                 </div>
                                 <div className="col-12">

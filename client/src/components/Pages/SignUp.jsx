@@ -15,12 +15,22 @@ const RegisterFormKeys = {
 
 function SignUp() {
     const { registerSubmitHandler } = useContext(AuthContext);
-    const { values, onChange, onSubmit } = useForm(registerSubmitHandler, {
+
+    const validationRules = {
+        [RegisterFormKeys.Username]: { required: true },
+        [RegisterFormKeys.Email]: { required: true, email: true },
+        [RegisterFormKeys.Password]: { required: true },
+        [RegisterFormKeys.ConfirmPassword]: { required: true },
+    };
+
+    const { values, onChange, errors, onSubmit } = useForm(registerSubmitHandler, {
         [RegisterFormKeys.Username]: '',
         [RegisterFormKeys.Email]: '',
         [RegisterFormKeys.Password]: '',
         [RegisterFormKeys.ConfirmPassword]: '',
-    });
+        },
+        validationRules
+    );
 
     return (
         <>
@@ -43,7 +53,8 @@ function SignUp() {
                                         onChange={onChange}
                                         values={values[RegisterFormKeys.Username]}
                                         />
-                                        <label htmlFor="username">Username</label>
+                                        <label htmlFor="username">Username<span className="text-danger">*</span></label>
+                                        {errors[RegisterFormKeys.Username] && <p className="text-danger fs-6 fst-italic m-0">{errors[RegisterFormKeys.Username]}</p>}
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -57,7 +68,8 @@ function SignUp() {
                                         onChange={onChange}
                                         values={values[RegisterFormKeys.Email]}
                                         />
-                                        <label htmlFor="email">Email</label>
+                                        <label htmlFor="email">Email<span className="text-danger">*</span></label>
+                                        {errors[RegisterFormKeys.Email] && <p className="text-danger fs-6 fst-italic m-0">{errors[RegisterFormKeys.Email]}</p>}
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -71,7 +83,8 @@ function SignUp() {
                                         onChange={onChange}
                                         value={values[RegisterFormKeys.Password]}
                                         />
-                                        <label htmlFor="password">Password</label>
+                                        <label htmlFor="password">Password<span className="text-danger">*</span></label>
+                                        {errors[RegisterFormKeys.Password] && <p className="text-danger fs-6 fst-italic m-0">{errors[RegisterFormKeys.Password]}</p>}
                                     </div>
                                 </div>
                                 <div className="col-12">
@@ -85,7 +98,8 @@ function SignUp() {
                                         onChange={onChange}
                                         value={values[RegisterFormKeys.ConfirmPassword]}
                                         />
-                                        <label htmlFor="confirm-password">Confirm Password</label>
+                                        <label htmlFor="confirm-password">Confirm Password<span className="text-danger">*</span></label>
+                                        {errors[RegisterFormKeys.ConfirmPassword] && <p className="text-danger fs-6 fst-italic m-0">{errors[RegisterFormKeys.ConfirmPassword]}</p>}
                                     </div>
                                 </div>
                                 <div className="col-12">
