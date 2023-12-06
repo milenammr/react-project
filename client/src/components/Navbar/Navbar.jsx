@@ -27,14 +27,6 @@ function Navbar() {
 						<Link to={Path.Home} className="nav-item nav-link active">Home</Link>
 						<Link to={Path.PropertyList} className="nav-item nav-link">Property List</Link>
 						<Link to={Path.About} className="nav-item nav-link">About</Link>
-						{/* <div className="nav-item dropdown">
-							<Link to="#" className="nav-link dropdown-toggle" data-bs-toggle="dropdown">Property List</a>
-							<div className="dropdown-menu rounded-0 m-0">
-								<Link to="property-list.html" className="dropdown-item">Property List</a>
-								<Link to="property-type.html" className="dropdown-item">Property Type</a>
-								<Link to="property-agent.html" className="dropdown-item">Property Agent</a>
-							</div>
-						</div> */}
 						<Link to={Path.Contacts} className="nav-item nav-link">Contact</Link>
 					</div>
 					{!isAuthenticated && (
@@ -42,7 +34,6 @@ function Navbar() {
 					)}
 					{isAuthenticated && (
 						<UserMenu name={username}/>
-						// <Link to="" className="btn btn-primary px-3 d-none d-lg-flex">Log Out</Link>
 					)}
 				</div>
 			</nav>

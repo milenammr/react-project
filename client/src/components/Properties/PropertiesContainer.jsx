@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react"
-import * as service from "../../services/service"
+import * as service from "../../services/propertiesService"
 import PropertyItem from "./PropertyItem"
 import Spinner from "../Spinner/Spinner"
 import ConfirmDeleteModal from "../Modals/ConfirmDeleteModal"
@@ -27,7 +27,7 @@ export default function PropertiesContainer({allProperties = []}) {
     }
     const notify = () => toast("Wow so easy !");
     const deleteProperty = async () => {
-        const deletedProperty = await service.deleteProperty(selectedProperty);
+        const deletedProperty = await service.remove(selectedProperty);
         // setProperties(properties.filter(property => property.id !== selectedProperty));
         setShowDeleteModal(false);
         console.log(deletedProperty.title);

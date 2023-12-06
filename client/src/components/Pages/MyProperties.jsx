@@ -1,15 +1,13 @@
 import { useContext } from "react"
 import { useEffect, useState } from "react";
+import AuthContext from "../../contexts/authContext";
 import Header from "../Headers/Header";
-import Spinner from "../Spinner/Spinner"
-// import Search from '../Search/Search';
-// import PropertiesContainer from "../Properties/PropertiesContainer";
+import Spinner from "../Spinner/Spinner";
 import CreatePropertyModal from "../Modals/CreatePropertyModal";
 import EditPropertyModal from "../Modals/EditPropertyModal";
 import ConfirmDeleteModal from "../Modals/ConfirmDeleteModal"
 import PropertyItem from "../Properties/PropertyItem";
 import * as service from "../../services/propertiesService";
-import AuthContext from "../../contexts/authContext";
 
 function MyProperties() {
     const [properties, setProperties] = useState([]);
