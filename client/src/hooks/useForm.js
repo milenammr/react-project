@@ -50,6 +50,7 @@ function useForm(submitHandler, initialValues, validationRules = {}) {
         onChange,
         errors,
         onSubmit,
+        setValues
     }
 }
 

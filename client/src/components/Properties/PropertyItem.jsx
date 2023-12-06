@@ -8,8 +8,8 @@ function PropertyItem({id, delay, imgUrl, tag, kind, price, title, address, dime
 
     const {isAuthenticated} = useContext(AuthContext); // TODO: no needed
 
-    const callDeleteModal = (propertyId) => {
-        setID(propertyId);
+    const callModal = (propertyId, type) => {
+        setID(propertyId, type);
     };
 
     return (
@@ -25,10 +25,10 @@ function PropertyItem({id, delay, imgUrl, tag, kind, price, title, address, dime
                     <div className="d-flex justify-content-between">
                         <h5 className="text-primary mb-3">${price}</h5>
                         {modify && isAuthenticated && (<div>
-                            <div className={`${style['btn-edit-hover']} ${style['btn-edit']} btn btn-icon btn-sm`}>
+                            <div className={`${style['btn-edit-hover']} ${style['btn-edit']} btn btn-icon btn-sm`} onClick={() => callModal(id, 'edit')}>
                                 <i className="bi bi-pencil"></i>
                             </div>
-                            <div className={`${style['btn-delete-hover']} ${style['btn-delete']} btn btn-icon btn-sm ms-2`} onClick={() => callDeleteModal(id)}>
+                            <div className={`${style['btn-delete-hover']} ${style['btn-delete']} btn btn-icon btn-sm ms-2`} onClick={() => callModal(id, 'delete')}>
                                 <i className="bi bi-trash"></i>
                             </div>
                         </div>)}
