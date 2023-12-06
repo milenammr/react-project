@@ -4,6 +4,7 @@ const Path = {
     PropertyList: '/property-list',
     Contacts: '/contacts',
     PropertyID: '/property-list/:id',
+    Category: '/property-list/category/:type',
     MyProperties: '/my-properties',
     SignIn: '/signin',
     SignUp: '/signup',

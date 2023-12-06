@@ -1,12 +1,12 @@
 import {useEffect, useState} from "react";
-import * as service from "../../services/service";
+import * as service from "../../services/propertiesService";
 import Category from "./Category";
 
 export default function CategoryList() {
     const [properties, setProperties] = useState([]);
 
     useEffect(() => {
-        service.getAllProperties()
+        service.getAll()
             .then(result => setProperties(result))
             .catch(err => console.error(err))
     }, []);

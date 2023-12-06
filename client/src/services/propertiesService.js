@@ -35,6 +35,16 @@ export const getLatest = async () => {
     return result;
 }
 
+export const getByCategory = async (type) => {
+    const query = new URLSearchParams({
+        where: `kind="${type}"`,
+    });
+
+    const result = await request.get(`${baseUrl}?${query}`);
+
+    return result;
+}
+
 export const create = async (propertyData) => {
     const result = await request.post(baseUrl, propertyData);
 
