@@ -1,6 +1,6 @@
-// eslint-disable-next-line react/prop-types
-import style from "./ConfirmDeleteModal.module.css";
+import style from "./Modal.module.css";
 
+// eslint-disable-next-line react/prop-types
 export default function ConfirmDeleteModal({onDelete, onClose}) {
     return (
         <div className={style.myModal} tabIndex={-1} id="ConfirmDeleteModal">

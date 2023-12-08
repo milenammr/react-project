@@ -1,7 +1,7 @@
 // eslint-disable-next-line react/prop-types
 import useForm from "../../hooks/useForm";
 import * as service from "../../services/propertiesService";
-import style from "./ConfirmDeleteModal.module.css";
+import style from "./Modal.module.css";
 
 const FormKyes = {
     Title: 'title',

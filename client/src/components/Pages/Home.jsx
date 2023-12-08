@@ -1,5 +1,5 @@
 import HomeHeader from '../Headers/HomeHeader'
-import Search from '../Search/Search'
+import Decoration from '../Decoration/Decoration'
 import CategoryList from '../CategoryList/CategoryList'
 import CallToAction from '../CallToAction/CallToAction'
 import TestimonialContainer from '../Testimonial/TestimonialContainer'
@@ -9,7 +9,7 @@ function Home() {
     return (
         <>  
             <HomeHeader />
-            <Search />
+            <Decoration />
             <LatestProperties />
             <CategoryList />
             <CallToAction />

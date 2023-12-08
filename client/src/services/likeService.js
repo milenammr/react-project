@@ -21,17 +21,6 @@ export const getLiked = async (propertyId, ownerId) => {
     return result;
 };
 
-export const getFavourites = async (ownerId) => {
-    const query = new URLSearchParams({
-        where: `_ownerId="${ownerId}"`,
-        // load: `owner=_ownerId:properties`,
-    });
-
-    const result = await request.get(`${baseUrl}?${query}`);
-
-    return result;
-}
-
 export const create = async (propertyId, like) => {
     const result = await request.post(baseURL, {
         propertyId,

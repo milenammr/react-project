@@ -1,5 +1,4 @@
-
-
+// eslint-disable-next-line react/prop-types
 function Header({title, img, address='', tag=''}) {
     return (
         <div className="container-fluid header bg-white p-0">

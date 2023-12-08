@@ -1,39 +1,27 @@
-import { useEffect, useState } from "react"
+import { useState } from "react"
 import * as service from "../../services/propertiesService"
 import PropertyItem from "./PropertyItem"
-import Spinner from "../Spinner/Spinner"
 import ConfirmDeleteModal from "../Modals/ConfirmDeleteModal"
-import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 
 // eslint-disable-next-line react/prop-types
 export default function PropertiesContainer({allProperties = []}) {
-    // const [properties, setProperties] = useState([]); 
-    // const [isLoading, setLoading] = useState(false); // for spinner
     const [selectedProperty, setSelectedProperty] = useState(null);
     const [showDeleteModal, setShowDeleteModal] = useState(false); // for delete modal
 
-    // const [startIndex, setStartIndex] = useState(0);
-    // const itemsPerPage = 6;
-    // const currentData = properties.slice(startIndex, startIndex + itemsPerPage);
-
-    // const handleNextClick = () => {
-    //     setStartIndex(startIndex + itemsPerPage);
-    // };
-// console.log(forRent);
     const setPropertyID = (id) => {
         setSelectedProperty(id);
         setShowDeleteModal(true);
     }
-    const notify = () => toast("Wow so easy !");
+
     const deleteProperty = async () => {
         const deletedProperty = await service.remove(selectedProperty);
-        // setProperties(properties.filter(property => property.id !== selectedProperty));
+   
         setShowDeleteModal(false);
         console.log(deletedProperty.title);
-        notify(); //TODO: show this message in a toast
-        // return <p>You are successfully deleted ${deletedProperty.title}</p> //TODO: show this message in a modal
+        
     };
+
     const forSell = allProperties.filter(property => property.tag == "For Sell");
     const forRent = allProperties.filter(property => property.tag == "For Rent");
     
@@ -63,7 +51,6 @@ export default function PropertiesContainer({allProperties = []}) {
                     </div>
                 </div>
                 <div className="tab-content">
-                    {/* {isLoading && (<Spinner />)} */}
                     <div id="tab-1" className="tab-pane fade show p-0 active">
                         <div className="row g-4">
                             {allProperties.map((property, index) => (
@@ -80,7 +67,8 @@ export default function PropertiesContainer({allProperties = []}) {
                                 dimension={property.dimension} 
                                 beds={property.beds} 
                                 bath={property.bath} 
-                                setID={setPropertyID}/>
+                                setID={setPropertyID}
+                                showFavorites={true}/>
                             ))
                             }
                         </div>
@@ -101,7 +89,8 @@ export default function PropertiesContainer({allProperties = []}) {
                                 dimension={property.dimension} 
                                 beds={property.beds} 
                                 bath={property.bath} 
-                                setID={setPropertyID}/>
+                                setID={setPropertyID}
+                                showFavorites={true}/>
                             ))
                             }
                         </div>
@@ -122,7 +111,8 @@ export default function PropertiesContainer({allProperties = []}) {
                                 dimension={property.dimension} 
                                 beds={property.beds} 
                                 bath={property.bath} 
-                                setID={setPropertyID}/>
+                                setID={setPropertyID}
+                                showFavorites={true}/>
                             ))
                             }
                         </div>

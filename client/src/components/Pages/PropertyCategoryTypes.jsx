@@ -42,7 +42,6 @@ function PropertyCategoryTypes() {
                             dimension={property.dimension} 
                             beds={property.beds} 
                             bath={property.bath} 
-                            modify={true}
                             />
                             )))
                         }

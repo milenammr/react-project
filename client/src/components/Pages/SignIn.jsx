@@ -4,7 +4,7 @@ import AuthContext from "../../contexts/authContext";
 import { Link } from "react-router-dom";
 import Header from "../Headers/Header";
 import Path from "../../paths";
-import Search from "../Search/Search";
+import Decoration from "../Decoration/Decoration";
 
 const SignInFormKyes = {
     Email: 'email',
@@ -28,7 +28,7 @@ function SignIn() {
     return (
         <>
             <Header title={'Sign In'} img={'../img/contact_us.png'}/>
-            <Search />
+            <Decoration />
             <div className="container mt-5">
                 <div className="col-md-6 offset-md-3">
                     <div className="wow fadeInUp" data-wow-delay="0.5s">

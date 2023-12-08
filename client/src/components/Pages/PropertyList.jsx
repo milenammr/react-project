@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import * as service from "../../services/propertiesService";
 import Header from "../Headers/Header";
-import Search from '../Search/Search';
+import Decoration from '../Decoration/Decoration';
 import PropertiesContainer from "../Properties/PropertiesContainer";
 
 function PropertyList() {
@@ -16,7 +16,7 @@ function PropertyList() {
     return (
         <>
             <Header title={'Property List'} img={'../img/property_list.png'}/>
-            <Search />
+            <Decoration />
             <PropertiesContainer allProperties={allProperties} />
         </>
     )
