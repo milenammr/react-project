@@ -12,3 +12,12 @@
     background-color: #c4faeb;
     color: #30B98E;
 }
+
+.like-property{
+    color: #d8d8d8;
+}
+
+.like-property-hover:hover{
+    color: #dc3545;
+    cursor: pointer;
+}

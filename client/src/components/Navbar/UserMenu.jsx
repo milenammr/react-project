@@ -11,7 +11,7 @@ function UserMenu ({name}) {
                     Hi, {name}
                 </a>
                 <ul className="dropdown-menu">
-                    <li><a className="dropdown-item" href="#">Favories</a></li>
+                    <li><Link className="dropdown-item" to={Path.Favorites}>Favourites</Link></li>
                     <li><Link className="dropdown-item" to={Path.MyProperties}>My Properties</Link></li>
                     <li><hr className="dropdown-divider"/></li>
                     <li><Link className="dropdown-item" to={Path.SignOut}>Sign Out</Link></li>

@@ -6,6 +6,7 @@ const Path = {
     PropertyID: '/property-list/:id',
     Category: '/property-list/category/:type',
     MyProperties: '/my-properties',
+    Favorites: '/favorites',
     SignIn: '/signin',
     SignUp: '/signup',
     SignOut: '/signout'

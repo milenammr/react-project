@@ -8,6 +8,7 @@ import Contact from './components/Pages/Contact';
 import Footer from './components/Footer/Footer';
 import PropertyDetails from './components/Pages/PropertyDetails';
 import MyProperties from './components/Pages/MyProperties';
+import Favorites from './components/Pages/Favorites';
 import PropertyCategoryTypes from './components/Pages/PropertyCategoryTypes';
 import SignIn from './components/Pages/SignIn';
 import SignUp from './components/Pages/SignUp';
@@ -36,6 +37,7 @@ function App() {
                     <Route path='*' element={<NotFound />} />
                     <Route element={<AuthGuard />}>
                         <Route path={Path.SignOut} element={<SignOut />} />
+                        <Route path={Path.Favorites} element={<Favorites />} />
                         <Route path={Path.MyProperties} element={<MyProperties />} />
                     </Route>
                 </Routes >
