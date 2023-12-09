@@ -1,4 +1,4 @@
-import { createContext } from "react";
+import { createContext, useState} from "react";
 import { useNavigate } from 'react-router-dom';
 
 import * as authService from '../services/authService';
@@ -13,15 +13,20 @@ export const AuthProvider = ({
 }) => {
     const navigate = useNavigate();
     const [auth, setAuth] = usePersistedState('auth', {});
+    const [errorMessage, setErrorMessage] = useState(null);
 
     const loginSubmitHandler = async (values) => {
-        const result = await authService.login(values.email, values.password);
-
-        setAuth(result);
-
-        localStorage.setItem('accessToken', result.accessToken);
-
-        navigate(Path.Home);
+        try {
+            const result = await authService.login(values.email, values.password);
+    
+            setAuth(result);
+    
+            localStorage.setItem('accessToken', result.accessToken);
+            navigate(Path.Home);
+        } catch (error) {
+            setErrorMessage(error.message);
+            
+        }
     };
 
     const registerSubmitHandler = async (values) => {
@@ -39,6 +44,12 @@ export const AuthProvider = ({
         localStorage.removeItem('accessToken');
     };
 
+    const dismissError = () => {
+        setErrorMessage(null);
+    }
+
+    const getError = () => errorMessage;
+
     const values = {
         loginSubmitHandler,
         registerSubmitHandler,
@@ -47,6 +58,8 @@ export const AuthProvider = ({
         email: auth.email,
         userId: auth._id,
         isAuthenticated: !!auth.accessToken,
+        getError,
+        dismissError
     };
 
     return (

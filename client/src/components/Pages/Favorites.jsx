@@ -6,14 +6,11 @@ import Spinner from "../Spinner/Spinner";
 import PropertyItem from "../Properties/PropertyItem";
 import * as propertiesService from "../../services/propertiesService";
 import * as likeService from "../../services/likeService";
-import ErrorModal from "../Modals/ErrorModal";
 
 function Favourites() {
     const [properties, setProperties] = useState([]);
     const { userId, username } = useContext(AuthContext);
     const [isLoading, setLoading] = useState(false); // for spinner
-    const [showErrorModal, setShowErrorModal] = useState(false);
-    const [errorMessage, setErrorMessage] = useState('');
 
     useEffect(() => {
         setLoading(true);
@@ -37,15 +34,6 @@ function Favourites() {
         setProperties((prevProperties) =>
           prevProperties.filter((property) => property._id !== id)
         );
-        try {
-            
-        
-            console.error('Error removing property:', error);
-          } catch (error) {
-            // Handle errors if necessary
-            setShowErrorModal(true)
-            setErrorMessage(`${error.code} ${error.message}`)
-          }
     }
 
     return (
@@ -53,7 +41,6 @@ function Favourites() {
             <Header title={'Favourites'} img={'../img/property_list.png'}/>
             <div className="container-fluid bg-primary mb-5 p-4 wow fadeIn" data-wow-delay="0.1s">
             </div>
-            {showErrorModal && (<ErrorModal errorMessage={errorMessage} onClose={() => setShowErrorModal(false)}/>)}
             {isLoading && (<Spinner />)}
             <div className="container-xxl py-5">
                 <div className="container">

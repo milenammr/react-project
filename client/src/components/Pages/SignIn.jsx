@@ -1,10 +1,11 @@
-import { useContext } from "react";
+import { useContext, useState} from "react";
 import useForm from "../../hooks/useForm";
 import AuthContext from "../../contexts/authContext";
 import { Link } from "react-router-dom";
 import Header from "../Headers/Header";
 import Path from "../../paths";
 import Decoration from "../Decoration/Decoration";
+import ErrorModal from "../Modals/ErrorModal";
 
 const SignInFormKyes = {
     Email: 'email',
@@ -12,7 +13,8 @@ const SignInFormKyes = {
 };
 
 function SignIn() {
-    const { loginSubmitHandler } = useContext(AuthContext);
+    const { loginSubmitHandler, getError, dismissError } = useContext(AuthContext);
+    const [showErrorModal, setShowErrorModal] = useState(false);
 
     const validationRules = {
         [SignInFormKyes.Email]: { required: true, email: true },
@@ -25,10 +27,23 @@ function SignIn() {
         },
         validationRules);
 
+    const errorMessage = getError();
+    if (errorMessage) {
+        if (!showErrorModal) {
+            setShowErrorModal(true);
+        }
+    }
+
+    const onCloseModalHandler = () => {
+        dismissError();
+        setShowErrorModal(false);
+    }
+
     return (
         <>
             <Header title={'Sign In'} img={'../img/contact_us.png'}/>
             <Decoration />
+            {showErrorModal && (<ErrorModal errorMessage={errorMessage} onClose={onCloseModalHandler}/>)}
             <div className="container mt-5">
                 <div className="col-md-6 offset-md-3">
                     <div className="wow fadeInUp" data-wow-delay="0.5s">
